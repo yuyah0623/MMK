@@ -1,0 +1,47 @@
+.detail {
+  p {
+    font-weight: 200;
+  }
+}
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, .075);
+    border-radius: 3px;
+    box-shadow: 0 1px 1px solid rgba(0, 0, 0, 1);
+    background-color: #fff;
+    small {
+      font-size: .875em;
+      line-height: 1.7;
+    }
+    th {
+      padding: 8px 10px;
+      letter-spacing: 1.5px;
+      p {
+        margin: 0 0 10px;
+        line-height: 1.6em;
+        font-size: 1.2em;
+      }
+    }
+    th[class*=col-] {
+      position: static;
+      display: table-cell;
+      float: none;
+    }
+    tr:nth-of-type(even) {
+      background-color: #f9f9f9;
+    }
+
+    .title {
+      font-size: 1.1em;
+      color: #555;
+      margin: 1.2em 0 1em;
+      font-weight: 200;
+      letter-spacing: 2px;
+    }
+    p {
+      font-weight: 200;
+    }
+  }
+

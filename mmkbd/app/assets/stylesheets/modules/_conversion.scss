@@ -1,0 +1,25 @@
+.conversion {
+  position: relative;
+  background-image: image-url("conversion.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: 160px 0;
+  /* Rectangle: */
+  .mask-dark {
+    background-color: #7F7474;
+    opacity: 0.35;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+
+  .title {
+    font-family: 'Hiragino Mincho Pron';
+    font-size: 32px;
+    color: white;
+  }
+}

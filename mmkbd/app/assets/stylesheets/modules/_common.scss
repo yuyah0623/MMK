@@ -30,6 +30,14 @@
 .margin-bottom-10 {
   margin-bottom: 10px;
 }
+
+.padding-top-100 {
+  padding-top: 100px;
+}
+
+.padding-bottom-40 {
+  padding-bottom: 40px;
+}
 .bg-color-white {
   background-color: white;
 }
@@ -47,11 +55,16 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+.relative {
+  position: relative;
+}
 p {
   margin: 0 0 10px;
   line-height: 1.6em;
   font-size: 16px;
   color: #917783;
+  font-weight: 200;
   font-family: 'Open Sans', 'Hiragino Sans', 'hiragino kaku gothic pro', meiryo, sans-serif;
   // letter-spacing: 0px;
 }
@@ -84,3 +97,7 @@ p {
   padding-bottom: 15px;
 }
 
+
+.vertical-align-middle {
+  vertical-align: middle;
+}
