@@ -19,10 +19,10 @@
 
 .feature-num {
   font-family: Futura-CondensedExtraBold;
-  font-size: 27px;
+  font-size: 40px;
   color: #917783;
   position: absolute;
-  top: 47px;
+  top: 38px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -31,7 +31,14 @@
 .feature-sub-title {
   font-family: Futura-Medium;
   font-size: 27px;
-  color: #917783;
+  color: #FC6D9B;
+    &:after {
+    width: 10em;
+    margin: .3em auto;
+    border-bottom: 2px dotted #FF6E9F;
+    display: block;
+    content: '';
+  }
 }
 
 

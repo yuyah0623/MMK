@@ -1,0 +1,20 @@
+.message3 {
+  position: relative;
+  background-image: image-url("message3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: 160px 0;
+  .title {
+    // /* 人生で一番記憶に残る、 最高の一日を一緒: */
+/* 何歳になっても ずっと一緒にいよう。: */
+    font-family: HiraMinProN-W3;
+    font-size: 36px;
+    color: #FFFFFF;
+    letter-spacing: 3.86px;
+    line-height: 60px;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
+  }
+}
+

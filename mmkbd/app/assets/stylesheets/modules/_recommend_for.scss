@@ -1,11 +1,19 @@
-// /* Mask: */
-// background: #D8D8D8;
-// /* iphone-6-in-girls-hands-picjumbo-com: */
-// /* RecruitLogo: */
-// /* BlurCover: */
-// opacity: 0.8;
-
-
+.recommend {
+  position: relative;
+  overflow: hidden;
+  /* Rectangle: */
+  .inner-mask-white {
+    width: 90%;
+    background-color: #fff;
+    opacity: 0.65;
+    margin: 70px auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+}
 .recommend-image {
   width: 100%;
 }
@@ -14,4 +22,5 @@
   font-family: YuGo-Medium;
   font-size: 21px;
   color: #555555;
+  line-height: 1.5em;
 }

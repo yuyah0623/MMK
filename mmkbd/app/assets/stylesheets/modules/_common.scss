@@ -10,7 +10,9 @@
 .margin-top-60 {
   margin-top: 60px;
 }
-
+.margin-top-40 {
+  margin-top: 60px;
+}
 .margin-top-20{
   margin-top: 20px;
 }
@@ -34,10 +36,76 @@
 .padding-top-100 {
   padding-top: 100px;
 }
+.padding-top-70 {
+  padding-top: 70px!important;
+}
 
 .padding-bottom-40 {
   padding-bottom: 40px;
 }
+
+.padding-bottom-50 {
+  padding-bottom: 50px;
+}
+
+.padding-bottom-65 {
+  padding-bottom: 65px;
+}
+
+
+.padding-left-30 {
+  padding-left: 30px !important;
+}
+
+.padding-right-30 {
+  padding-right: 30px !important;
+}
+
+
+
+.padding-60 {
+  padding: 60px;
+}
+
+
+/*****XS******/
+@media screen and (max-width: 480px) {
+  .font-size-03-xs {
+    font-size: 0.3em !important;
+  }
+}
+/*****SM******/
+@media (max-width: 767px) {
+  .padding-30-sm {
+    padding: 30px !important;
+  }
+  .padding-left-0-sm {
+    padding-left: 0px !important;
+  }
+  .padding-right-0-sm  {
+    padding-right: 0px !important;
+  }
+  .margin-top-sm-60 {
+    margin-top: 60px !important;
+  }
+  .block-sm {
+    display: block !important;
+  }
+  .font-size-1-sm {
+    font-size: 1em !important;
+  }
+}
+
+/*****MD******/
+@media screen and (min-width: 992px) {
+  .col-md-pull-6 {
+    right: 50%;
+  }
+  .col-md-push-6 {
+    left: 50%;
+  }
+}
+
 .bg-color-white {
   background-color: white;
 }
@@ -45,7 +113,9 @@
 .bg-color-lightgray {
   background-color: #F9F9F9;
 }
-
+.bg-color-lightgreen {
+  background-color: #E8F7FD;
+}
 .section {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -84,15 +154,32 @@ p {
   }
 }
 
+.bg-color-green {
+  background-color: #EEFCEC;
+}
+
+.bg-color-pink {
+  background-color: #FDE8F1;
+}
+.bg-color-white {
+  background-color: #fff;
+}
+.inner-bg-white {
+  background-color: #fff;
+}
 
 .img-radius {
   border-radius: 50%;
 }
-
+.dot-radius {
+  border-radius: 50%;
+  border: 2px dotted #fff;
+  padding: 3px;
+}
 
 
 .underline {
-  border-bottom: 2px solid #FF6E9F;
+  border-bottom: 2px dotted #FF6E9F;
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
@@ -100,4 +187,9 @@ p {
 
 .vertical-align-middle {
   vertical-align: middle;
+}
+
+
+.font-color-pink {
+  color: #FC6D9B;
 }

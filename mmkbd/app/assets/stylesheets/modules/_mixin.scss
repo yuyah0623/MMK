@@ -1,0 +1,15 @@
+@mixin title($color) {
+ /* Lunch box made by Yu: */
+  font-family: SFUIDisplay-Ultralight;
+  font-size: 39px;
+  color: #3E3037;
+  letter-spacing: 4.18px;
+  line-height: 1.2em;
+  text-shadow: 0px 1px 4px #FFFFFF;
+  &:after {
+    margin: .5em auto 0.6em;
+    border-bottom: 3px dotted $color;
+    display: block;
+    content: '';
+  }
+}

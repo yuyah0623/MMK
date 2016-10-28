@@ -1,4 +1,13 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', 'Hiragino Sans', 'hiragino kaku gothic pro', meiryo, sans-serif;
+
+  a {
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+  }
 }
