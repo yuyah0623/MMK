@@ -1,0 +1,38 @@
+.waiting-for-you{
+  background-image: image-url("yuya_momoko_conversion.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  position: relative;
+  h1 {
+    font-family: 'Open Sans', 'Hiragino Sans', 'hiragino kaku gothic pro', meiryo, sans-serif;
+    font-weight: 200;
+    padding-top: 50vh;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+    position: relative;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    &:after {
+      border-bottom: 1px solid #fff;
+      padding-top: 1em;
+      content: '';
+      display: block;
+      width: 5em;
+      margin: 0 auto;
+    }
+  }
+  // padding: 5% 0 30%;
+  .mask {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.45;
+  }
+}
