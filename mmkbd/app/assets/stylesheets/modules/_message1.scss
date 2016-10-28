@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  padding: 160px 0;
+  padding: 100px 0;
   /* Rectangle: */
   .mask-pink {
     background-color: #DA8B8B;
@@ -20,7 +20,7 @@
   }
   .bg-white-blur {
     background-image: image-url("bg-white-blur.png");
-      background-repeat: no-repeat;
+    background-repeat: no-repeat;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -28,10 +28,17 @@
     left: 0;
   }
 
+  .shadow-mask-white {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
   .title {
     // /* 人生で一番記憶に残る、 最高の一日を一緒: */
-    font-family: HiraMinProN-W3;
-    font-size: 40px;
+    font-size: 30px;
     color: #A27F7F;
     letter-spacing: 15px;
     line-height: 1.8;
@@ -41,6 +48,21 @@
     }
     span.blue {
       color: #42A2D0;
+    }
+  }
+
+  @media (max-width: 767px) {
+    padding: 80px 0;
+    background-position: 20% center;
+
+    .shadow-mask-white {
+      background-color: rgba(255,255,255,0.8);
+    }
+
+    .title {
+      text-align: center;
+      font-size: 24px;
+      letter-spacing: 5px;
     }
   }
 }
