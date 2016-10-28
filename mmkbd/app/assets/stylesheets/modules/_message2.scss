@@ -1,15 +1,12 @@
 .message2 {
-  position: relative;
   background-image: image-url("message2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
   padding: 5% 0 30%;
-  /* Rectangle: */
-  .mask-pink {
-    background-color: #DA8B8B;
-    opacity: 0.35;
+
+  .mask {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -22,6 +19,18 @@
     letter-spacing: 3.21px;
     line-height: 2em;
     font-weight: 100;
+  }
+
+  @media (max-width: 767px) {
+    .mask {
+      background-color: rgba(0,0,0,0.3);
+    }
+
+    .title {
+      color: #fff;
+      font-size: 20px;
+      line-height: 2em;
+    }
   }
 }
 

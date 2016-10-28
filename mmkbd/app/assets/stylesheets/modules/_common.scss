@@ -140,10 +140,10 @@ p {
 }
 
 .section-title {
-  font-family: Code-Light;
-  font-size: 32px;
-  color: #000000;
-  letter-spacing: 10px;
+  font-size: 28px;
+  font-weight: 100;
+  color: #826b75;
+  letter-spacing: 8px;
   margin-bottom: 40px;
   &:after {
     width: 1.8em;
@@ -157,6 +157,11 @@ p {
 .section-description {
   font-size: 16px;
   line-height: 1.8;
+  letter-spacing: 0.5px;
+
+  @media (max-width: 767px) {
+    font-size: 14px;
+  }
 }
 
 .bg-color-green {
