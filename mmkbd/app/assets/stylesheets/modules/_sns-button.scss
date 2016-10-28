@@ -1,0 +1,15 @@
+.sns-buttons {
+  display: inline-block;
+  text-align: center;
+  ul {
+    display: inline-block;
+    list-style: none;
+    li {
+      float: left;
+    }
+    li:nth-child(2) {
+      // margin-top: 4px;
+      margin-left: 5px;
+    }
+  }
+}
